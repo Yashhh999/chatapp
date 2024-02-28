@@ -26,7 +26,7 @@ export default function page(){
         }
         else{
           toast.success('Registered')
-          module.exports(email, password)
+          module.exports ={email, password}
     }
   };
 
@@ -61,6 +61,7 @@ export default function page(){
                     }}
                   />
                 </div>
+                
                 <div>
                   <label htmlFor="password" className="sr-only">
                     Password
